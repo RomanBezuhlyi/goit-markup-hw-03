@@ -1,0 +1,193 @@
+:root{
+    --theme-color: #2196F3;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3em;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+p{
+    color: #757575;
+}
+
+.logo{
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.logo>span{
+    color: var(--theme-color);
+}
+
+
+/*================Header styles starts here=================*/
+
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.conect{
+    color: #757575;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--theme-color);
+}
+
+/* ===========PORTFOLIO=============== */
+/* ===========Section portfolio=========== */
+
+.filter-btn{
+    font-family: var(--main-font);
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background: var(--theme-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.examples-name{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+/* ==========END PORTFOLIO================= */
+
+/*=============Section hero===============*/
+
+.btn-hero{
+    background: var(--theme-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.2em;
+    cursor: pointer;
+}
+
+/*============Section about us=================*/
+
+.hero{
+    background: #2F303A;
+}
+
+.heading-about{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.text-about{
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+}
+
+/* ================Section what are we doing?================ */
+
+
+/* ===========Section our team================== */
+
+.team{
+    background: #F5F4FA;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.profession{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+/* ===========Footer============== */
+
+.footer{
+    background: #2F303A;  
+}
+
+.logo-bottom{
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.logo-bottom>span{
+    color: var(--theme-color);
+}
+
+address{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-link{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
