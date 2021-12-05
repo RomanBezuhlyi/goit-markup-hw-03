@@ -164,6 +164,7 @@ img{
 .examples-name{
     font-weight: bold;
     font-size: 18px;
+    line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
     margin-bottom: 4px;
