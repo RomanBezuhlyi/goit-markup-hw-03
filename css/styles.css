@@ -32,17 +32,10 @@ img{
     height: auto;
 }
 
-p{
-    color: #757575;
-}
-
 .container{
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-}
-.section{
-    padding: 94px 0px;
 }
 
 /* HEADER */
@@ -112,6 +105,10 @@ p{
 
 /* Section portfolio */
 
+.portfolio{
+    padding: 94px 0;
+}
+
 .filter-links{
     display: flex;
     justify-content: center;
@@ -125,8 +122,7 @@ p{
 .filter-btn{
     font-family: var(--main-font);
     background: #F5F4FA;
-    width: 128px;
-    height: 38px;
+    padding: 6px 22px;
     border: none;
     border-radius: 4px;
     font-weight: 500;
@@ -157,7 +153,7 @@ p{
 }
 
 .examples-item:not(:nth-last-child(-n+3)){
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .examples-info{
@@ -168,10 +164,18 @@ p{
 .examples-name{
     font-weight: bold;
     font-size: 18px;
-    line-height: 2em;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-bottom: 4px;
 }
+
+.examples-text{
+    font-size: 16px;
+    line-height: 1.9em;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 /* END PORTFOLIO.HTML */
 
 
@@ -182,6 +186,7 @@ p{
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 200px 0;
 }
 
 .name-hero{
@@ -213,9 +218,18 @@ p{
 
 /* Section About Us */
 
+.about{
+    padding: 94px 0;
+}
+
 .about-links{
     display: flex;
 }
+
+.about-item{
+    width: 270px;
+}
+
 .about-item:not(:last-child){
     margin-right: 30px;
 }
@@ -227,15 +241,21 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
 }
 .text-about{
     font-size: 14px;
     line-height: 1.7em;
     letter-spacing: 0.03em;
+    color: #757575;
 }
 
 
 /* Section What are we doing? */
+
+.specification{
+    padding-bottom: 94px;
+}
 
 .specification-links{
     display: flex;
@@ -258,6 +278,11 @@ p{
 
 .team{
     background: #F5F4FA;
+    padding: 94px 0;
+}
+
+.name-heading{
+    margin-bottom: 50px;
 }
 
 .team-links{
@@ -275,17 +300,23 @@ p{
     margin-right: 30px;
 }
 
+.team-info{
+    padding: 30px;
+}
+
 .name{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2em;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 10px;
 }
 .profession{
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    color: #757575;
 }
 
 
@@ -321,4 +352,12 @@ address{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-item{
+    margin-bottom: 20px;
+}
+
+.footer-item{
+    margin-bottom: 9px;
 }
